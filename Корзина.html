@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Korzina</title>
+    <link rel="stylesheet" type="text/css" href="Корзина.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <nav>
+            <div class="nav_menu">
+                <div class="nav_menu_logo">
+                    <a href="#">
+                        <img class="logo" src="./Images/Логотип.png" alt="logo">
+                    </a>
+                </div>
+                <div class="nav_menu_list">
+                    <a class="nav_menu_link" href="#">Главная</a>
+                    <a class="nav_menu_link" href="Акции.html">Акции</a>
+                    <a class="nav_menu_link" href="О нас.html">О нас</a>
+                    <button class="nav_menu_button">
+                        <img class="nav_menu_bascket_img" src="./Images/Кнопка%20_Корзина_.png"  alt="bascket">
+                        <a href="Корзина.html"></a>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<main>
+<div class="popup">
+    <div class="popup__container" id="popup_container">
+        <div class="popup__item">
+            <h1 class="popup__title">Оформление заказа</h1>
+        </div>
+        <div class="popup__item" id="popup_product_list">
+            <div class="popup__product">
+                <div class="popup__product-wrap">
+                    <img
+                            src="./images/iphone-14-pro-max-gold.png"
+                            alt="Apple IPhone 14 Pro Max 256Gb"
+                            class="popup__product-image"
+                    />
+                    <h2 class="popup__product-title">
+                        Смартфон Apple IPhone 14 Pro Max 256Gb, золотой
+                    </h2>
+                </div>
+                <div class="popup__product-wrap">
+                    <div class="popup__product-price">135000</div>
+                    <button class="popup__product-delete">✖</button>
+                </div>
+            </div>
+        </div>
+        <div class="popup__item">
+            <div class="popup__cost">
+                <h2 class="popup__cost-title">Итого</h2>
+                <output class="popup__cost-value" id="popup_cost">150000</output>
+            </div>
+            <div class="popup__cost">
+                <h2 class="popup__cost-title">Скидка</h2>
+                <output class="popup__cost-value" id="popup_discount">15000</output>
+            </div>
+            <div class="popup__cost">
+                <h2 class="popup__cost-title">Итого со скидкой</h2>
+                <output class="popup__cost-value" id="popup_cost_discount"
+                >135000</output
+                >
+            </div>
+        </div>
+        <button class="popup__close" id="popup_close">✖</button>
+    </div>
+</div>
+</main>
+<footer class="footer">
+    <div class="container1">
+        <div class="footer_copyright">
+            <a href="https://www.rudom.ru/program.pdf" class="footer_link1" target="_blank">Программы лояльности</a>
+            <a href="https://tehprivod.su/documents/politika-konfidentialnosti.pdf" class="footer_link2" target="_blank">Политика конфиденциальности</a>
+            <a href="https://www.askona.ru/uploads/contracts/contract_region_08.2022.pdf" class="footer_link3" target="_blank">Договор оферты</a><br><br>
+        </div>
+        <div class="footer-text">
+            <p class="footer_text">ООО «Vintage Food»</p>
+            <p class="footer_text">© Все права защищены</p>
+        </div>
+        <div class="footer_social"><br><br>
+            <a href="https://vk.com/id521752467" class="social_icon_link" target="_blank">
+                <img src="./Images/VK%20Circled.png" alt="VK" class="social_icon">
+            </a>
+            <a href="https://web.telegram.org/k/#-1301810255" class="social_icon_link1" target="_blank">
+                <img src="./Images/Telegram.png" alt="Telegram" class="social_icon1">
+            </a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

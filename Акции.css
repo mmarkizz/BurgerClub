@@ -1,0 +1,129 @@
+*
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 20px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+header{
+    background: linear-gradient(180deg, #EDA418 47.4%, rgba(237, 164, 24, 0) 100%);
+}
+nav{
+    padding-top: 11px;
+    margin-bottom: 23px;
+}
+nav_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_menu_logo{
+    padding-top: 17px;
+}
+.nav_menu_list{
+    margin-left: 660px;
+    margin-bottom: 400px;
+}
+.nav_menu_button{
+    border: none;
+    background-color: transparent;
+    cursor:pointer;
+    margin-bottom: 23px;
+}
+.nav_menu_link{
+    margin-right: 100px;
+    font-size: 25px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.nav_menu_link#link1{
+    font-weight: 700;
+}
+.nav_menu_link:hover{
+    color:white;
+}
+.footer_copyright{
+    text-align: center;
+}
+.footer_link1{
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+.footer_link2{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.footer-text{
+    text-align: center;
+}
+.footer_social{
+    text-align: center;
+}
+.social_icon{
+    margin-bottom: 105px;
+}
+.social_icon1{
+    margin-bottom: 100px;
+}
+.MENU1{
+    display: inline-block;
+    margin-left: 355px;
+    margin-bottom: 100px;
+}
+.MENU2{
+    display: inline-block;
+    margin-left: 150px;
+}
+.footer{
+    background: linear-gradient(180deg, white, #EDA418 47.4%);
+}
+.chicken{
+    border: 2px solid #EDA418;
+    padding: 3px;
+    text-align: left;
+    background: #EDA418 47.4%;
+    width: 30%;
+    margin-bottom: 100px;
+}
+.rulit{
+    border: 2px solid #EDA418;
+    padding: 3px;
+    text-align: left;
+    background: #EDA418 47.4%;
+    width: 30%;
+    margin-bottom: -250px;
+}
+.cupon{
+    border: 2px solid #EDA418;
+    padding: 3px;
+    text-align: left;
+    background: #EDA418 47.4%;
+    width: 30%;
+    margin-bottom: 300px;
+    margin-left: 600px;
+    transform: translateY(-119%);
+}
+.main{
+    margin-left: 400px;
+}
